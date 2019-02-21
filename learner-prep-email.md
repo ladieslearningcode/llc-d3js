@@ -8,7 +8,7 @@ HOW TO PREPARE:
 
 2. Download Atom Editor: http://atom.io (Sublime Text or Text Wrangler work okay, too!)
 
-3. Download the Learner Materials here: http://bit.ly/llc-browser-extensions
+3. Download the Learner Materials here: http://bit.ly/llc-d3js
 
 If it is a full day workshop (10am-4pm), lunch will be provided.
 
