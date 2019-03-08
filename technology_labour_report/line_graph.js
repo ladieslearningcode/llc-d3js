@@ -1,3 +1,4 @@
+(() => {
 // **** THE DATA ****
 
 var dataset = [
@@ -17,3 +18,4 @@ var dataset = [
 	// month with year
 	// duration_in_hours with professionals_employed
 	// bikeshare with dataset
+})();

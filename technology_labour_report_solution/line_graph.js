@@ -1,3 +1,4 @@
+(() => {
 // **** THE DATA ****
 
 		var dataset = [
@@ -129,3 +130,4 @@
 		    .attr("cy", (d) => yScale(d.professionals_employed) )
 		    .attr("r", 8)
 		    .attr("transform", "translate(30, 0)")
+})();
