@@ -1,3 +1,4 @@
+(() => {
 // Create a svg with dimensions
 
 // Create a variable with your dataset
@@ -11,3 +12,4 @@
 // Draw the arcs of your pie chart. Use an ordinal scale function to add a different colour to each slice of data
 
 // STRETCH GOAL: Add events and labels
+})();

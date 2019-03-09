@@ -1,4 +1,4 @@
-
+(() => {
 // Create an svg with dimensions
 var width = window.innerWidth / 2;
 var height = 450;
@@ -67,3 +67,4 @@ g.append("path")
      //Hide the tooltip
      d3.select("#tooltip").classed("hidden", true);
    });
+})();
