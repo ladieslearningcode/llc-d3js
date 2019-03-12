@@ -1,0 +1,7 @@
+#Today's Projects
+	- why is the second graphic depicting a different graph than the first graphic?
+	- heading should appear before the graph so users understand what they are looking at
+	- explanation seems 
+
+#What is D3?
+	- too much jargon in the second paragraph
