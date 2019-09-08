@@ -130,9 +130,9 @@
       <script type="text/template">
             #Today's Projects
 
-            <p>First we'll create a line chart.</p>
+            <p>(1) First we'll create a line chart.</p>
             <img src="./framework/img/workshop/linechart.png" alt="" style="width: 50%">
-            <p>Then we'll add it to a report and add a pie chart.</p>
+            <p>(2) Then we'll add it to a report and add a pie chart.</p>
             <img src="./framework/img/workshop/report.png" alt="" style="width: 50%">
 
           </script>
@@ -191,7 +191,7 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown data-toc>
+    <section class="slide" data-markdown>
       <script type="text/template">
         #Types of Graphs
 
@@ -317,7 +317,7 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown data-toc>
+    <section class="slide" data-markdown>
       <script type="text/template">
         #Recap Activity
 
@@ -519,7 +519,7 @@
       </script>
     </section>
 
-    <section class="slide two-col-list" data-markdown data-toc>
+    <section class="slide two-col-list" data-markdown>
       <script type="text/template">
         #SVG v PNG?
 
@@ -533,7 +533,7 @@
       </script>
     </section>
 
-    <section class="slide centered" data-markdown data-toc>
+    <section class="slide centered" data-markdown>
       <script type="text/template">
         #Example SVG
 
@@ -541,7 +541,7 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown data-toc>
+    <section class="slide" data-markdown>
       <script type="text/template">
         #Example SVG
 
@@ -568,7 +568,7 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown data-toc>
+    <section class="slide" data-markdown>
       <script type="text/template">
         #SVGs and D3
 
@@ -929,14 +929,16 @@
       <script type="text/template">
         # Let's reuse our line graph code but swap the data!
 
-        1. Copy your javascript code used to generate the line graph in Exercise 1
+        1. Delete bikeshare variable
 
-        2. Paste this javascript in `line_graph.js` within the `technology_labour_report` folder
+        2. Uncomment dataset variable
 
         3. Find and replace the variable names:
           * bikeshare -> dataset
           * months -> year
           * duration_in_hours -> professionals_employed
+
+        4. Try modifying the css on L140-153 in `technology_labour_report/style.css` to change the look of your line graph
 
       </script>
     </section>
@@ -1092,6 +1094,8 @@
             .attr("d", arc)
             .style("fill", function(d,i) { return color(i); });
         ```
+
+        Feel free to choose different hex codes to represent each slice of data
       </script>
     </section>
 
